@@ -8,7 +8,7 @@
 		render: function() {
 		    return ( <tr>
 	                    <th scope="row">
-	                    	<input onChange={this.toggChange} type="checkbox" value={this.props.item.id} checked={this.props.item.selected} />{this.props.item.selected}
+	                    	<input onChange={this.toggChange} type="checkbox" value={this.props.item.id} checked={this.props.item.selected} />
                     	</th>
 	                    <td>{this.props.item.firstName}</td>
 	                    <td>{this.props.item.lastName}</td>
